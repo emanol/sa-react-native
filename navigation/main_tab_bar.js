@@ -1,12 +1,8 @@
 import React from 'react';
 import { createBottomTabNavigator } from 'react-navigation';
-import { View, Text } from 'react-native';
 import Ionicons from 'react-native-vector-icons/FontAwesome';
 import About from '../components/about';
-
-const SearchTab = (props) => {
-  return <View style={{ flex: 1, justifyContent: 'center' }}><Text>Search</Text></View>;
-};
+import SearchTab from './search_tab';
 
 const MainTabBar = createBottomTabNavigator(
   {

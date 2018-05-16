@@ -1,8 +1,8 @@
 {
-  "expoServerPort": null,
-  "packagerPort": null,
-  "packagerPid": null,
-  "expoServerNgrokUrl": null,
-  "packagerNgrokUrl": null,
-  "ngrokPid": null
+  "expoServerPort": 19000,
+  "packagerPort": 19001,
+  "packagerPid": 1314,
+  "expoServerNgrokUrl": "https://hp-izq.3manol.sa-react-native.exp.direct",
+  "packagerNgrokUrl": "https://packager.hp-izq.3manol.sa-react-native.exp.direct",
+  "ngrokPid": 1326
 }

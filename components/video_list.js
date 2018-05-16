@@ -12,45 +12,6 @@ import {
 
 import youtubeSearch from '../services/youtube-api';
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    flexDirection: 'row',
-    backgroundColor: 'rgb(240,240,240)',
-  },
-  thumbnail: {
-    width: 100,
-    height: 100,
-    marginRight: 5,
-    backgroundColor: 'black',
-  },
-  rightContainer: {
-    flex: 1,
-    padding: 5,
-    height: 100,
-  },
-  title: {
-    fontSize: 16,
-    fontWeight: 'bold',
-    marginBottom: 3,
-  },
-  subtitle: {
-    fontSize: 12,
-  },
-  separator: {
-    height: 1,
-    backgroundColor: 'rgb(200,200,200)',
-  },
-  listView: {
-    backgroundColor: 'rgb(240,240,240)',
-  },
-  loading: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
-});
-
 class VideoList extends Component {
    static navigationOptions = {
      title: 'Youtube Search',
@@ -149,5 +110,44 @@ class VideoList extends Component {
      );
    }
 }
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    flexDirection: 'row',
+    backgroundColor: 'rgb(240,240,240)',
+  },
+  thumbnail: {
+    width: 100,
+    height: 100,
+    marginRight: 5,
+    backgroundColor: 'black',
+  },
+  rightContainer: {
+    flex: 1,
+    padding: 5,
+    height: 100,
+  },
+  title: {
+    fontSize: 16,
+    fontWeight: 'bold',
+    marginBottom: 3,
+  },
+  subtitle: {
+    fontSize: 12,
+  },
+  separator: {
+    height: 1,
+    backgroundColor: 'rgb(200,200,200)',
+  },
+  listView: {
+    backgroundColor: 'rgb(240,240,240)',
+  },
+  loading: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+});
 
 export default VideoList;
